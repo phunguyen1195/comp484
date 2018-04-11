@@ -1,0 +1,186 @@
+/* Color Palette
+# - #FF9933
+# - color 2
+# - color 3
+# - color 4
+*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:700');
+
+@font-face{
+  font-family: 'Lora'; 
+  src: url('https://cdn.glitch.com/ceeeb52f-dcd7-4c19-ac78-3f1da4fbda6c%2FLora-Regular.ttf?1520932569139');
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Global styles 
+------------------------------------*/
+body {
+  font-family: 'Lora', serif;
+  background:	#FFFFFF;
+  margin: 0;
+  margin-top: 15px;
+  
+  
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header{
+  background: #FF9933;
+  
+   
+}
+
+h1, h2 {
+  font-family: 'Ubuntu', serif; 
+  font-weight: 400;
+}
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 40px;
+  margin-top:0;
+}
+/*
+header img{
+    box-shadow: 5px 10px 8px #888888;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:6px solid	#FFFFFF;
+    z-index: -1;
+}
+*/
+.content-wrap {
+  max-width: 950px; 
+  margin: 0 auto; 
+  padding: 50px;
+  overflow: hidden;
+}
+
+main {
+  background:	#FFFFFF;
+}
+
+header h1, header h2{
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  margin: 0;
+}
+header h1{
+  font-size: 50px;
+}
+header h2{
+  font-size:30px;
+}
+
+footer{
+  background: #FF9933;
+  text-align: center;
+  
+}
+footer p{
+  margin-bottom: 0px;
+}
+footer h2{
+  font-family: 'Ubuntu', serif; 
+}
+
+/* Work Experience
+------------------------------------*/
+main h1{
+  
+  color: #FF9933;
+  margin:0;
+  
+}
+
+main h1, main h2{
+  margin: 0;
+}
+
+.col {
+  font-weight: bold;
+  color: #FF9933;
+  margin:0;
+}
+
+.bold{ 
+  font-weight: bold;
+}
+
+.link a{
+  padding: 10px; 
+  display: inline-block;
+}
+
+.profile-img {
+  border-radius:50%;
+  /*margin-right: 30px;*/
+  border:6px solid	#FFFFFF;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.column-narrow {
+  width: 35%; 
+  float: left; 
+  min-height: 175px;
+}
+.column-wide{
+  width: 62%; 
+  float: left; 
+   padding-left: 20px; 
+  min-height: 225px;
+}
+
+.image-bg {
+  width: auto;
+  
+  /* sets the background image */
+   background: url(https://cdn.glitch.com/ceeeb52f-dcd7-4c19-ac78-3f1da4fbda6c%2Flight-pink-texture-abstract-design_1920x1080.jpg?1522193891921) no-repeat; 
+  
+  /* sets gradient and image */
+   background: linear-gradient(rgba(70,130,180, 0),
+                 rgba(70,130,180, 0)),
+                 url(https://cdn.glitch.com/ceeeb52f-dcd7-4c19-ac78-3f1da4fbda6c%2Flight-pink-texture-abstract-design_1920x1080.jpg?1522193891921) no-repeat; 
+}
+
+.alpha-bg {
+  height: 100%;
+  
+}
+
+
+.navbar{
+    overflow: hidden;
+  background-color:  #dddddd;
+  position: fixed;
+    top: 0;
+    width: 100%;
+  text-align: center;
+}
+
+ .navbar a:hover{
+   color: gold;
+   background-color: #111;
+   
+}
+
+.navbar a {
+  display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Education
+------------------------------------*/
