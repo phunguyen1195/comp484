@@ -1,14 +1,13 @@
-# lab_instructions.txt
+# My reume website
 
-In the text will you will find the hw instructions
+This file describes your project to the community. What's your cool website about? What makes it special?
 
 ヽ(๏∀๏ )ﾉ
 
+## ← index.html
 
+Where you'll write the content of your website. 
 
+## ← styles.css
 
-
-## ← intro.html
-
-pretty much the index.html 
-
+CSS files add styling rules to your content

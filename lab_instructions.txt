@@ -1,41 +1,34 @@
-Welcome to your first challenge. In this course’s challenges, you’ll work on completing the Comp484 reference site. You won’t be building the site from scratch, rather you’ll be completing various portions of the site in varying degrees of completion. The goal is to reinforce and put into practice what you’ve learned.
+HW6 Resume Site
 
-For this challenge you’ll be planning and implementing a formatting strategy for the site. In the steps below I’ll list the tasks you need to perform, as well as the relevant files for each task.
+In this hw, you’ll work on your resume site. I'll be providing the starting HTML markup (index.html) so you can dive into the CSS right away. You can customize the content however you wish. But make sure to keep the HTML structure pretty much the same to be able to follow along with the exercises.
 
-1.	Determine a heading strategy.
-             a.	Applies to: All pages
-             b.	Explore each of the pages (intro.htm, links.htm, next.htm, reference.htm, structure.htm and syntax.htm) and carefully read through the text.
-             c.	Determine which content should be represented as headings, and then which level of headings you should use for each page. Focus on being consistent in how you assign headings for each page.
-             d.	Go through each of the pages, and format headings based on your strategy.
+1.	Populate the index.html file
+			a.	Take some time to customize your starter file and personalize the content.
 
-2.	Format paragraphs
-             a.	Applies to: intro.htm
-             b.	Determine which content should be represented by paragraphs and then format them appropriately. 
+2.  Make appropiate css and images folders to store and link files..
 
-3.	Controlling line breaks
-             a.	Applies to: next.htm
-             b.	In the section under “learning web design” there are four recommendations. Each recommendation has an initial sentence followed by descriptive text. Using a line break, format these paragraphs so their initial sentence appears on its own line.
+3.	Link external style sheet
+            a.	In the head of your page, use the link element to link to the styles.css file. Be sure to remember to define the styles.css relationship as stylesheet.
+            b. Do a quick test just to make sure that the files are linked together properly. An example can be setting the background color.
 
-4.	Determining emphasis
-	     a.	Applies to: next.htm
-	     b.	In the file next.htm examine the four pieces of advice in the Learning Web Design section. Determine how to best emphasize the first line in each paragraph. Think about ways that you could isolate that line or emphasize it in a way that denotes its importance to the rest of the paragraph.
-             c.	In the last advice paragraph (“break things”), display the quotes in italics. In the same paragraph, emphasize the last line “Always challenge yourself” so that it’s importance is indicated.
-	     d.	In the list of resources below the advice section, make sure all top-level list items appear in bold.
-			
-5.	Displaying special characters
-	     a.	Applies to: reference.htm
-	     b.	Scroll down and find the table that displays common named character entities.
-	     c.	Preview the page in a browser, and using the table as a reference, add the appropriate entity into the first table cell to provide an example of that character.
-	     d.	In the definition for Elements, wrap the word "tags" in quotes using a left and right quote special character.
-			
-6.	Inserting Images
-	     a.	Applies to: Intro.htm
-	     b.	Examine the existing image at the top of the page. Note the class “flowRight” which is used by CSS to control styling. You’ll learn more about this in the chapter on CSS.
-	     c.	Scroll down until you locate the paragraph “Shortly After the 1.0 specification…” At the beginning of that paragraph insert an image that:
-                  i.	points to the 200px-W3C_icon.png in the _images directory
-                  ii.	uses the alt text “W3C logo”
-		  iii.	passes the value of 200 for width, and 136 for height
-		  iv.	applies a class of “flowLeft”			
-					
+4. Pick a color pallete for your site. 
+            a. Look online for a color pallete. 
+            b. Copy and paste your color codes in the commented section in the styles.css file.
+            c. In your styles.css file change the background color of each header, footer, work experience, and education section.
+            d. Add classes as needed.
+            e. Adjust font colors if needed
 
+5.	Pick two Google Fonts and add them to your site
+			a.	Go to the Google Fonts website explore and pick two web-safe fonts for your site
+			b.	The fonts you select will be added to a collection in the bottom drawer. 
+			c. Copy the standard embed link. This should look familiar since it's using the same link tag we use to add our CSS file. This snippet will actually link to Google Style Sheet, and this is how the font families are loaded onto your webpage
+            d. Add the code snippet to the head section of your index file and put it right before the styles.css file.
+            e. Now that our new fonts are loaded into the page, set a new default font family back in styles.css for body, h1, h2, etc. 
 
+6.  In your styles.css file
+            a. adjust the font size of your h1 and h2 tags so that it stands out more accordingly. 
+            b. feel free to play around with the font family, or font sizes of the other headings or body text, as you wish
+
+7. Add some font-weight properties
+            a. In the Google Fonts site go back and take a look at the options for selecting different typefaces and font weights. After you've selected your font choices open the drawer and go to this Customize tab. Here you'll see options for different font weights. You can choose as many as you'd like but the more you choose, the more resources your page has to load. So only add what you need.
+            b. copy the new embed code and update it to your html file.
